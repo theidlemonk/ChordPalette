@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChordPalette", "ChordPalette\ChordPalette.csproj", "{EA724AC7-1DED-4F54-B4FD-5D9C78658C9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{221E55A1-5B16-48C5-B8B8-966FF7271BE2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{EA724AC7-1DED-4F54-B4FD-5D9C78658C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA724AC7-1DED-4F54-B4FD-5D9C78658C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA724AC7-1DED-4F54-B4FD-5D9C78658C9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221E55A1-5B16-48C5-B8B8-966FF7271BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221E55A1-5B16-48C5-B8B8-966FF7271BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221E55A1-5B16-48C5-B8B8-966FF7271BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221E55A1-5B16-48C5-B8B8-966FF7271BE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
