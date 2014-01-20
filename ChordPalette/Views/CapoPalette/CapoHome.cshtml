@@ -1,7 +1,23 @@
-﻿@model ChordPalette.Models.CapoPalette.CapoStrings
+﻿@model List<ChordPalette.Models.CapoStrings>
 
 @{
     ViewBag.Title = "CapoHome";
 }
 
 <h2>CapoHome</h2>
+
+<div id="CapoGrid"> 
+
+<table id="CapoGridTable">
+    <tr><th>If you Play</th> <th>It will Sound Like</th></tr>
+    <tr><td>A</td><td>@ViewData.Model[0].Sound</td></tr>
+    <tr><td>B</td><td>@ViewData.Model[1].Sound</td></tr>
+    <tr><td>C</td><td>@ViewData.Model[2].Sound</td></tr>
+    <tr><td>D</td><td>@ViewData.Model[3].Sound</td></tr>
+    <tr><td>E</td><td>@ViewData.Model[4].Sound</td></tr>
+    <tr><td>F</td><td>@ViewData.Model[5].Sound</td></tr>
+    <tr><td>G</td><td>@ViewData.Model[6].Sound</td></tr>
+</table>
+
+</div>
+
