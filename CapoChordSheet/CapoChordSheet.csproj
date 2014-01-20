@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{221E55A1-5B16-48C5-B8B8-966FF7271BE2}</ProjectGuid>
+    <ProjectGuid>{84FBA5D2-D6AB-435E-ADA8-C67DD28016B0}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChordRepository</RootNamespace>
-    <AssemblyName>Repository</AssemblyName>
+    <RootNamespace>CapoChordSheet</RootNamespace>
+    <AssemblyName>CapoChordSheet</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -60,7 +60,9 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChordsSpectrum.cs" />
+    <Compile Include="Chords.cs" />
+    <Compile Include="ChordSheet.cs" />
+    <Compile Include="IChordSheet.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -86,7 +88,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:61953/</IISUrl>
+          <IISUrl>http://localhost:15772/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

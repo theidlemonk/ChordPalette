@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ChordRepository
 {
-    public class Chords
+    public class ChordsSpectrum
     {
         public Dictionary<string, int> GetCapoChordSpectrum()
         {
@@ -25,5 +25,7 @@ namespace ChordRepository
                 {"G", 12}
             };
         }
+
+       
     }
 }
